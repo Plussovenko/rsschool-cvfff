@@ -15,3 +15,24 @@ My strengths:
 - The ability and desire to learn and develop new skills
 - the ability to focus on solving the problem
 - Time management
+
+## Hard Skills
+
+- HTML
+- CSS/SASS/BEM/Bootstrap
+- JavaScript
+- TypeScript
+- Angular (basic knowledge)
+- Git/Github
+
+## Code Example
+
+**Task**: Return the number (count) of vowels in the given string.
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+The input string will only consist of lower case letters and/or spaces.
+
+```javascript
+function getCount(str) {
+  return str.split("").filter((item) => item.match(/[aoeui]/i)).length;
+}
+```
