@@ -13,7 +13,7 @@ My strengths:
 
 - I work well in a team
 - The ability and desire to learn and develop new skills
-- the ability to focus on solving the problem
+- The ability to focus on solving the problem
 - Time management
 
 ## Hard Skills
