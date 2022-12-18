@@ -83,15 +83,19 @@ body {
 
 .main {
   display: flex;
-  align-items: center;
 }
 
-/* Contacts start */
 .sidebar {
   background-color: var(--primary-color);
   width: 40%;
   padding: 0 50px;
 }
+
+.main-info {
+  width: 60%;
+  padding: 0 50px;
+}
+/* Contacts start */
 .contacts {
   margin-bottom: 50px;
 }
@@ -165,6 +169,7 @@ body {
 
 .lang__item {
   font-size: 16px;
+  list-style: disc;
 }
 
 .lang__item:not(:last-child) {
@@ -176,4 +181,64 @@ body {
 }
 /* Education and lang end */
 
+/* Main-info start */
+.about {
+  margin-bottom: 50px;
+}
+.about__title {
+  margin-bottom: 15px;
+}
+.about__desc {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.about__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.about__item {
+  margin-bottom: 15px;
+}
+.about__item:last-child {
+  margin-bottom: 0;
+}
+/* Main-info end */
+
+/* Skills start */
+.skills {
+  margin-bottom: 50px;
+}
+.skills__title {
+  margin-bottom: 15px;
+}
+
+.skills__item {
+  margin-bottom: 15px;
+  list-style: disc;
+}
+
+.skills__item:last-child {
+  margin-bottom: 0;
+}
+/* Skills end */
+
+/* Projects start */
+.projects__title {
+  margin-bottom: 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.grid__item {
+  width: 200px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+/* Projects end */
 /* Main end */
